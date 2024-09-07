@@ -1,0 +1,80 @@
+/* links*/
+
+.links h1{
+   font-family: sans-serif;
+    -webkit-text-stroke: 1px white;
+    
+}
+.card-links{
+    position: relative;
+    z-index: 20;
+}
+
+.card-links > * {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.5s;
+
+}
+
+.card-links > * h2{
+    height: 100%;
+    width: 100%;
+    background-color:#9BC91F ;
+    font-weight: 900;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+   
+}
+
+.card-links div:nth-child(1){
+   background: url("/waiting/page-toptracer.avif") rgba(0, 0, 0, 0.5) ;
+   background-size: 450px;
+   background-position: center;
+}
+
+.card-links div:nth-child(1):hover{
+    background-size: 430px;
+    h2{
+        background-color: transparent;
+        color: white;
+    }
+ }
+
+.card-links div:nth-child(2){
+   background: url("/waiting/page-lessons.webp") rgba(0, 0, 0, 0.5);
+   background-size: 450px;
+   background-position: center;
+}
+
+.card-links div:nth-child(2):hover{
+    background-size: 430px;
+    h2{
+        background-color: transparent;
+        color: white;
+       
+    }
+ }
+
+
+
+
+.card-links div:nth-child(3){
+    background: url("/waiting/page-ag.avif") rgba(0, 0, 0, 0.5);
+    background-size: 450px;
+    background-position: center;
+ }
+ 
+ .card-links div:nth-child(3):hover{
+     background-size: 430px;
+     h2{
+         background-color: transparent;
+         color: white;
+     }
+  }
+

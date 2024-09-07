@@ -1,0 +1,9 @@
+#main::before{
+    content: "EAT. DRINK.\A PLAY.";
+    position: absolute;
+    color: rgb(9, 9, 8);
+    top: -6px;
+    left: -8px;
+    z-index: -1;
+    -webkit-text-stroke: 2px #90b147;
+}

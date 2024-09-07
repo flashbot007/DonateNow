@@ -1,0 +1,33 @@
+.gallery img{
+    height: 100%;
+    width: 15vw;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.gallery{
+    animation-name: slide;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#follow:hover{
+   color: #9BC91F;
+   svg{
+    fill:#9BC91F;
+   }
+}
+
+svg:hover{
+    fill:red;
+}
+
+@keyframes slide{
+    from{
+        transform:translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}

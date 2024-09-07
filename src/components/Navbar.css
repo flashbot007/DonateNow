@@ -1,0 +1,8 @@
+
+#main-logo{
+    transition: all ease-in-out .5s ;
+}
+
+#main-logo:hover{
+    transform: scale(0.9);
+}

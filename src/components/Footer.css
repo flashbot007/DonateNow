@@ -1,0 +1,19 @@
+
+
+#events-1 span:hover{
+    color: white;
+
+}
+#events-2 span:hover{
+    color: white;
+}
+
+.tw-big:hover{
+    color: white;
+}
+
+
+#footer-logo:hover{
+    transform: scale(0.9);
+}
+

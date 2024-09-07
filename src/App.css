@@ -1,0 +1,47 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family:  Montserrat;
+  box-sizing: border-box;
+
+}
+*::selection{
+  background-color: white;
+  color: #95c11e;
+}
+
+html ,body{
+  height: 100%;
+}
+
+.arrow:hover{
+  animation-name: arrow;
+  animation-duration: 1s;
+} 
+
+@keyframes arrow{
+   from{
+    transform: rotateY(0)
+  }
+  to {
+    transform:rotate3d(0,0,1,360deg)
+  }
+
+} 
+
+/* Scrollbar Track */
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: black; /* Width of the scrollbar */
+}
+
+/* Scrollbar Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #95c11e; /* Color of the scrollbar handle */
+  border-radius: 5px; /* Rounded corners for the scrollbar handle */
+}
+
+/* Optional: Hover effect on scrollbar handle */
+
+
+

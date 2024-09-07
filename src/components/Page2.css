@@ -1,0 +1,29 @@
+.scroll-in h4{
+  color: black;
+ -webkit-text-stroke: 2px white;
+ font-family: sans-serif;
+ margin-right: 20px;
+ transition: all linear 0.4s;
+ 
+}
+
+.scroll-in h4:hover{
+    color:#95c11e;
+}
+
+.scroll-in{
+    display: flex;
+    animation-name: scroll;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes scroll {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
